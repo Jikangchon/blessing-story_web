@@ -1,0 +1,171 @@
+
+body {
+    margin:0;
+    font-family: 'NanumSquare';
+}
+
+@import url(https://cdn.jsdellvr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+a { 
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f47979;
+    padding: 8px 12px;
+}
+
+.navbar__logo { 
+    font-size: 24px;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+.navbar__logo i {
+    color: #f47979;
+}
+
+.navbar__menu {
+    display: flex;
+    list-style: none;
+    padding-left:0;
+    position: relative;
+    right: 150px;
+}
+
+.navbar__menu li {
+    padding: 8px 20px;
+}
+
+.navbar__menu li:hover {
+    background-color:#da7070;
+    border-radius: 20px;
+}
+
+.navbar__icons {
+    list-style: none;
+    color: white;
+    display: flex;
+}
+
+.navbar__icons li {
+    padding: 8px 12px;
+}
+
+.navbar__toogleBtn {
+    display: none;
+    position: absolute;
+    right: 12px;
+    color: white;
+    padding: 15px;
+
+    
+}
+
+.sub-menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position:relative;
+
+}
+
+.sub-menu {
+    position: absolute;
+    background:#f47979;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.sub-menu > li {
+    padding: 15px 25px;
+}
+.sub-menu > li > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.sub-menu li:hover {
+    background-color:#da7070;
+    border-radius: 5px;
+}
+.navbar__menu > li:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+
+    .navbar__menu {
+        display: none;
+        flex-direction:column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar__menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar__icons {
+        display: none;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar__toogleBtn {
+        display: block;
+    }
+
+    .nabar__menu.active,
+    .navbar__icons.active {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width: 783px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+
+    .navbar__menu {
+        display: none;
+        flex-direction:column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar__menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar__icons {
+        display: none;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar__toogleBtn {
+        display: block;
+    }
+
+    .nabar__menu.active {
+        display: flex;
+    }
+}
+
