@@ -11,7 +11,10 @@ a {
     color: white;
 }
 
+
+
 .navbar {
+    position:sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -99,6 +102,8 @@ a {
 }
 
 
+
+
 @media screen and (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -183,3 +188,75 @@ a {
     text-align:center;
     font-size: 10px;
 }
+.introduce1 {
+    position: relative;
+    bottom: 80px;
+}
+
+.Title-intro {
+    color: #ffffff;
+}
+
+.bg-img {
+    margin: 0;
+    padding: 0;
+    position:relative;
+}
+
+.bg-img {
+    background-size: 100px;
+    width: 200px;
+    height: 200px;
+    opacity: 80%;
+
+}
+
+html {
+    background-color:black;
+}
+
+.first-txt {
+    font-size: 30px;
+}
+
+.second-txt {
+    margin:0;
+    padding:0;
+    
+}
+.second-txt {
+    position:relative;
+    top: 15px;
+    font-size: 40px;
+}
+
+.third-txt {
+    margin:0;
+    padding:0;
+}
+.third-txt {
+    position:relative;
+    top: 27px;
+    font-size: 40px;
+}
+
+.forth-txt {
+    margin:0;
+    padding:0;
+}
+.forth-txt {
+    position:relative;
+    top: 35px;
+    font-size: 40px;
+}
+
+.fivth-txt {
+    margin:0;
+    padding:0;
+}
+.fivth-txt {
+    position:relative;
+    top: 60px;
+    font-size: 20px;
+}
+
