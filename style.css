@@ -1,16 +1,17 @@
 
 body {
     margin:0;
-    font-family: 'NanumSquare';
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 @import url(https://cdn.jsdellvr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 
 a { 
     text-decoration: none;
-    color: white;
+    color: rgb(247, 239, 239);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 
 .navbar {
@@ -193,9 +194,6 @@ a {
     bottom: 80px;
 }
 
-.Title-intro {
-    color: #ffffff;
-}
 
 .bg-img {
     margin: 0;
@@ -214,49 +212,3 @@ a {
 html {
     background-color:black;
 }
-
-.first-txt {
-    font-size: 30px;
-}
-
-.second-txt {
-    margin:0;
-    padding:0;
-    
-}
-.second-txt {
-    position:relative;
-    top: 15px;
-    font-size: 40px;
-}
-
-.third-txt {
-    margin:0;
-    padding:0;
-}
-.third-txt {
-    position:relative;
-    top: 27px;
-    font-size: 40px;
-}
-
-.forth-txt {
-    margin:0;
-    padding:0;
-}
-.forth-txt {
-    position:relative;
-    top: 35px;
-    font-size: 40px;
-}
-
-.fivth-txt {
-    margin:0;
-    padding:0;
-}
-.fivth-txt {
-    position:relative;
-    top: 60px;
-    font-size: 20px;
-}
-
